@@ -1,0 +1,17 @@
+header{ 
+    background-image: url("background.jpg");
+    color: white;
+}
+body{
+    background-image: url("body.jpg");
+    color: white;
+}
+
+ul{
+    background-color: antiquewhite;
+    color: black
+}
+footer{
+    background-image: url("background.jpg");
+    color: white;
+}
