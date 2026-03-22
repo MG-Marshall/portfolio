@@ -1,17 +1,16 @@
 header{ 
-    background-image: url("background.jpg");
+    background-color: rgb(48, 44, 44);
     color: white;
 }
 body{
-    background-image: url("body.jpg");
+    background-color: rgb(48, 44, 44);
     color: white;
 }
 
 ul{
-    background-color: antiquewhite;
     color: black
 }
 footer{
-    background-image: url("background.jpg");
+    background-color: rgb(48, 44, 44);
     color: white;
 }
