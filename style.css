@@ -4,21 +4,32 @@ header{
     border-radius: 10px;
     padding-left: 20px;
 }
-header > div {
+#intro{
     display: flex;
-    align-items: flex-start;
-    gap: 20px;
+    gap: 15px;
 }
 main{
     padding-left: 20px;
 }
 body{
     background-color: rgb(0, 0, 0);
-    color: white;
-    
+    color: white; 
 }
 body img{
     border-radius: 10px;
+}
+.image{
+    transition: transform 0.35s ease;
+}
+.image:hover{
+    transform: scale(1.05);
+}
+
+@media(max-width: 510px){
+    #intro{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 footer{
     background-color: rgb(18, 16, 28);
