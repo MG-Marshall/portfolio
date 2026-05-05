@@ -133,8 +133,11 @@ footer{
 
 @media(max-width: 690px){
     .intro{
-        height: 800px;
+        height: 900px;
         flex-direction: column;
         align-items: center;
+    }
+    .intro img{
+        height: 300px;
     }
 }
